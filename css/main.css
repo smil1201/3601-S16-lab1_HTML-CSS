@@ -1,19 +1,42 @@
 h2 {
-    color: red;
+    color: #339933;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
-p {
-    font-family: monospace;
+p, figcaption {
+    font-family: Oswald;
+}
+
+figure {
+    display: block;
+    width: 50%;
 }
 
 img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+
+li a {
+    color: honeydew;
+    font-family: Oswald;
 }
 
 .centerText {
     text-align: center;
+}
+
+.leftText {
+    text-align: left;
+}
+
+html {
+    padding: 15px 15px 15px 15px;
 }
