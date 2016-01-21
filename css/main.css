@@ -4,7 +4,7 @@ h2 {
 }
 
 p, figcaption {
-    font-family: Oswald;
+    font-family: Oswald, Arial, sans-serif;
 }
 
 figure {
@@ -24,9 +24,15 @@ ul {
     overflow: hidden;
 }
 
-li a {
+#jerryImage {
+    padding: 15px 15px 15px 15px;
+    float: left;
+    width: 50%;
+}
+
+li a, #navBar {
     color: honeydew;
-    font-family: Oswald;
+    font-family: Oswald, Arial, sans-serif;
 }
 
 .centerText {
@@ -37,6 +43,14 @@ li a {
     text-align: left;
 }
 
+.rightText {
+    text-align: right;
+}
+
 html {
+    padding: 15px 15px 15px 15px;
+}
+
+.rightAlignedCaption {
     padding: 15px 15px 15px 15px;
 }
