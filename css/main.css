@@ -12,6 +12,7 @@ footer {
      padding: 15px 15px 15px 15px;
      background-color: #403E2F;
      color: honeydew;
+     overflow: auto;
  }
 
 p, figcaption {
@@ -41,6 +42,12 @@ ul {
     width: 50%;
 }
 
+#cabbageImage {
+    padding: 15px 15px 15px 15px;
+    float: right;
+    width: 30%;
+}
+
 li a, #navBar {
     color: honeydew;
     font-family: Oswald, Arial, sans-serif;
@@ -68,5 +75,17 @@ html {
 }
 
 #groceriesImage {
+    padding: 15px 15px 15px 15px;
+    float: left;
+}
 
+#groceriesContent {
+    display: inline;
+    padding: 15px 15px 15px 15px;
+    float: left;
+
+ }
+
+#groceriesContent p {
+    margin-left: 600px;
 }
