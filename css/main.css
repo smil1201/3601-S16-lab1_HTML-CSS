@@ -1,7 +1,18 @@
 h2 {
-    color: #339933;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
+
+body {
+    padding: 15px 15px 15px 15px;
+    background-color: #302E1F;
+    color: honeydew;
+}
+
+footer {
+     padding: 15px 15px 15px 15px;
+     background-color: #403E2F;
+     color: honeydew;
+ }
 
 p, figcaption {
     font-family: Oswald, Arial, sans-serif;
@@ -20,7 +31,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: #333;
+    background-color: #4E526D;
     overflow: hidden;
 }
 
@@ -49,8 +60,13 @@ li a, #navBar {
 
 html {
     padding: 15px 15px 15px 15px;
+    background-color: #74A643;
 }
 
 .rightAlignedCaption {
     padding: 15px 15px 15px 15px;
+}
+
+#groceriesImage {
+
 }
