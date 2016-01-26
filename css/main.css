@@ -19,15 +19,6 @@ p, figcaption {
     font-family: Oswald, Arial, sans-serif;
 }
 
-figure {
-    display: block;
-    width: 50%;
-}
-
-img {
-    width: 90%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,12 +30,6 @@ ul {
 #jerryImage {
     padding: 15px 15px 15px 15px;
     float: left;
-    width: 50%;
-}
-
-#cabbageImage {
-    padding: 15px 15px 15px 15px;
-    float: right;
     width: 30%;
 }
 
@@ -75,17 +60,16 @@ html {
 }
 
 #groceriesImage {
-    padding: 15px 15px 15px 15px;
     float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 350px;
 }
 
-#groceriesContent {
-    display: inline;
-    padding: 15px 15px 15px 15px;
-    float: left;
-
- }
-
-#groceriesContent p {
-    margin-left: 600px;
+#cabbageImage {
+    float: right;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 350px;
 }
