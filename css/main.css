@@ -19,18 +19,16 @@ p, figcaption {
     font-family: Oswald, Arial, sans-serif;
 }
 
+figcaption {
+    font-style: italic;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #4E526D;
     overflow: hidden;
-}
-
-#jerryImage {
-    padding: 15px 15px 15px 15px;
-    float: left;
-    width: 30%;
 }
 
 li a, #navBar {
@@ -72,4 +70,15 @@ html {
     margin-left: 15px;
     margin-bottom: 15px;
     width: 350px;
+}
+
+#jerryImage {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+#jerryContent {
+    margin-top: 20px;
 }
